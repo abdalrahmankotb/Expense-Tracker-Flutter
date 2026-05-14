@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 class WeeklyMonthlyToggle extends StatelessWidget {
+  const WeeklyMonthlyToggle({super.key});
+
   @override
   Widget build(BuildContext context) {
     final toggle = Provider.of<ToggleProvider>(context);
